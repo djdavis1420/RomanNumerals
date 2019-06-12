@@ -28,4 +28,10 @@ describe 'convert' do
     it 'should return IV for 4' do
         expect(convert(4)).to eq 'IV'
     end
+    it 'should return IX for 9' do
+        expect(convert(9)).to eq 'IX'
+    end
+    it 'should return XL for 40' do
+        expect(convert(40)).to eq 'XL'
+    end
 end
