@@ -13,4 +13,7 @@ describe 'convert' do
     it 'should return L for 50' do
         expect(convert(50)).to eq 'L'
     end
+    it 'should return C for 100' do
+        expect(convert(100)).to eq 'C'
+    end
 end
