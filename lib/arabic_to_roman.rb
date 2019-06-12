@@ -1,3 +1,16 @@
+VALUES = {
+    "V": 5,
+    "I": 1
+}
+
 def convert(number)
-    "I"
+    roman_numeral = ""
+
+    for key, value in VALUES
+        if value == number
+            roman_numeral << key.to_s
+        end
+    end
+
+    roman_numeral
 end
