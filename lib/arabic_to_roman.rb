@@ -10,10 +10,12 @@ VALUES = {
 
 def convert(number)
     roman_numeral = ""
+    n = number
 
     for key, value in VALUES
-        if value == number
+        while n >= value
             roman_numeral << key.to_s
+            n -= value
         end
     end
 

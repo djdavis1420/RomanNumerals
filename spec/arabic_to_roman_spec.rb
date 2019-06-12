@@ -22,4 +22,7 @@ describe 'convert' do
     it 'should return M for 1000' do
         expect(convert(1000)).to eq 'M'
     end
+    it 'should return II for 2' do
+        expect(convert(2)).to eq 'II'
+    end
 end
