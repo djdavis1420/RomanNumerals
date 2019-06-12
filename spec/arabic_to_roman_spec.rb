@@ -43,4 +43,13 @@ describe 'convert' do
     it 'should return CM for 900' do
         expect(convert(900)).to eq 'CM'
     end
+    it 'should return MCDXX for 1420' do
+        expect(convert(1420)).to eq 'MCDXX'
+    end
+    it 'should return MCMLXXXV for 1985' do
+        expect(convert(1985)).to eq 'MCMLXXXV'
+    end
+    it 'should return MMXIX for 2019' do
+        expect(convert(2019)).to eq 'MMXIX'
+    end
 end
