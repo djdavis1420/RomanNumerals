@@ -37,4 +37,7 @@ describe 'convert' do
     it 'should return XC for 90' do
         expect(convert(90)).to eq 'XC'
     end
+    it 'should return CD for 400' do
+        expect(convert(400)).to eq 'CD'
+    end
 end
