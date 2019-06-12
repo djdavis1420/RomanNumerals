@@ -25,4 +25,7 @@ describe 'convert' do
     it 'should return II for 2' do
         expect(convert(2)).to eq 'II'
     end
+    it 'should return IV for 4' do
+        expect(convert(4)).to eq 'IV'
+    end
 end
